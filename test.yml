@@ -3,9 +3,9 @@ name : CI
 # 什麼情況下觸發 workflow
 on:
   #對於main branch 建立 Branch Pull Request 時觸發workflow
-  branches: [ main ]
+  branches: [main]
     pull_request:
-  branches: [ main ]
+  branches: [main]
   
   #允許你從Action 頁頁簽上手動執行 workflow
   workflow_dispatch:
