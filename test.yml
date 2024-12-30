@@ -25,8 +25,8 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
   
-    # 執行一組的指令
-    - name: Run a multi-line script
-      run:
-        echo Add other actions to build,
-        echo test, and deploy your project.
+      # 執行一組的指令
+      - name: Run a multi-line script
+        run:
+          echo Add other actions to build,
+          echo test, and deploy your project.
